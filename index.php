@@ -36,22 +36,36 @@
   
         <ul class="nav nav-pills me-3">
             <!-- Tak beda dropdowny \/ -->
+            <li class="nav-item"><a href="https://uonetplus.vulcan.net.pl/powiathajnowski" class="nav-link">Dziennik elektroniczny</a></li>
             <li class="nav-item">
                 <div class="dropdown">
                     <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dla uczniów
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="#">Plany lekcji</a></li>
-                        <li><a class="dropdown-item" href="#">Podręczniki</a></li>
-                        <li><a class="dropdown-item" href="#">Matury / Egzaminy</a></li>
+                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji/index.html">Plany lekcji</a></li>
+                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-gimnazjum.htm">Podręczniki</a></li>
+                        <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="https://europa.eu/europass/pl/create-europass-cv">Kreator CV</a></li>
                     </ul>
                 </div>
             </li>
             <!-- zwykle guziki najlepiej przerobic na dropdowny \/ -->
-            <li class="nav-item"><a href="#" class="nav-link">Dla nauczycieli</a></li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dla nauczycieli
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Rozkład kadry</a></li>
+                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-podstawowce.htm">Podręczniki</a></li>
+                        <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://europa.eu/europass/pl/create-europass-cv">Kreator CV</a></li>
+                    </ul>
+                </div>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">O uczniach</a></li>
         </ul>
     </header>
