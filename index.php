@@ -27,7 +27,8 @@
             Dyplomy - FIX ASAP (dropdown menu) roczniki
             Stypendyści - FIX ASAP (dropdown menu) roczniki
             Najlepsi uczniowie - okej to dziala ale jacobs uladnic
-            Archiwum - Zapisane poprzednie panele boczne razem z ich korespondujacymi stronami -->
+            Archiwum - Zapisane poprzednie panele boczne razem z ich korespondujacymi stronami 
+    -->
 
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark">
         <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
@@ -37,14 +38,14 @@
   
         <ul class="nav nav-pills me-3">
             <!-- Tak beda dropdowny \/ -->
-            <li class="nav-item"><button href="https://uonetplus.vulcan.net.pl/powiathajnowski" class="btn btn-dark">Dziennik elektroniczny</button></li>
+            <li class="nav-item"><a href="https://uonetplus.vulcan.net.pl/powiathajnowski"><button class="btn btn-dark">Dziennik elektroniczny</button></a></li>
             <li class="nav-item">
                 <div class="dropdown">
                     <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dla uczniów
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji/index.html">Plany lekcji</a></li>
+                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji/index.html">Plany lekcji</a></li>
                         <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-gimnazjum.htm">Podręczniki</a></li>
                         <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
                         <li><hr class="dropdown-divider"></li>
@@ -59,7 +60,7 @@
                     Dla nauczycieli
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Rozkład kadry</a></li>
+                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Rozkład kadry</a></li>
                         <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-podstawowce.htm">Podręczniki</a></li>
                         <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
                         <li><hr class="dropdown-divider"></li>
@@ -73,9 +74,9 @@
                     O uczniach
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Stypendyści</a></li>
-                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-podstawowce.htm">Najlepsi uczniowie</a></li>
-                        <li><a class="dropdown-item" href="https://arkusze.pl/">Dyplomy</a></li>
+                        <li><a class="dropdown-item" href="#">Stypendyści</a></li>
+                        <li><a class="dropdown-item" href="#">Najlepsi uczniowie</a></li>
+                        <li><a class="dropdown-item" href="#">Dyplomy</a></li>
                     </ul>
                 </div>
             </li>
@@ -88,7 +89,7 @@
             main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
             po prawej patroni i inne
         -->
-
+        
     </main>
     <section>
         <!--
