@@ -31,7 +31,8 @@
 
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark">
         <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
-            <span class="fs-4 ms-4">ZSZ Hajnówka</span>
+            <img src="img/logo.png" alt="Logo" class="bi ms-3" width="40" height="40">
+            <span class="fs-4 ms-3">ZSZ Hajnówka</span>
         </a>
   
         <ul class="nav nav-pills me-3">
@@ -74,9 +75,7 @@
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Stypendyści</a></li>
                         <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-podstawowce.htm">Najlepsi uczniowie</a></li>
-                        <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="https://europa.eu/europass/pl/create-europass-cv">Kreator CV</a></li>
+                        <li><a class="dropdown-item" href="https://arkusze.pl/">Dyplomy</a></li>
                     </ul>
                 </div>
             </li>
@@ -112,25 +111,20 @@
             *bip*
         -->
     </section>
-    
-    <footer class="row row-cols-5 pt-5 my-5 border-top fixed-bottom bg-tertiary-bg">
-        <div class="col ps-5">
-        <a href="/" class="d-flex align-items-center mb-2 link-dark text-decoration-none">
-            <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
-            <img src="/logo.png" alt="Logo" class="bi me-2" width="40" height="40">
-            <h5 class="ms-2">Zespół szkół zawodowych w Hajnówce</h5>
-        </a>
-        
-        <p class="text-muted mb-2 p-0">Telefon:</p>
-        <p class="text-muted mb-2 p-0">Adres:</p>
-        <p class="text-muted mb-2 p-0">E-Mail:</p>
-        <p class="text-muted mb-2 p-0">ZSZ Hajnówka © 2023</p>
+    <footer class="row py-5 mt-3 border-top fixed-bottom bg-dark">
+        <div class="ps-5 col col-md-4 col-xl-4 col-sm-12">
+            <a href="/" class="d-flex align-items-center mb-2 link-dark text-decoration-none">
+                <img src="img/logo.png" alt="Logo" class="bi me-2" width="40" height="40">
+                <h5 class="ms-2 pe-4">Zespół Szkół Zawodowych w Hajnówce</h5>
+            </a>
+            
+            <p class="text-muted mb-2 p-0">Telefon: +48 856822071</p>
+            <p class="text-muted mb-2 p-0">Adres: 17-200 Hajnówka, ul. 3 Maja 25</p>
+            <p class="text-muted mb-2 p-0">E-Mail: zsz_hajnowka@op.pl</p>
+            <p class="text-muted mb-2 p-0">ZSZ Hajnówka © 2023</p>
         </div>
 
-        <div class="col">
-        </div>
-
-        <div class="col">
+        <div class="col col-md-3 col-xl-3 col-sm-12">
         <h5>Kontakt i dostępność</h5>
         <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontakt</a></li>
@@ -141,7 +135,7 @@
         </ul>
         </div>
 
-        <div class="col">
+        <div class="col col-md-3 col-xl-3 col-sm-12">
         <h5>Informacje</h5>
         <!-- RODO i inne rzeczy typu prawo tutaj \/-->
         <ul class="nav flex-column">
@@ -153,7 +147,7 @@
         </ul>
         </div>
 
-        <div class="col">
+        <div class="col col-md-2 col-xl-2 col-sm-12">
         <h5>Section</h5>
         <!-- Nie mam pojecia co tu ma byc ale raczej cos sie jeszcze wcisnie -->
         <ul class="nav flex-column">
