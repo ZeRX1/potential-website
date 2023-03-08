@@ -36,7 +36,7 @@
   
         <ul class="nav nav-pills me-3">
             <!-- Tak beda dropdowny \/ -->
-            <li class="nav-item"><a href="https://uonetplus.vulcan.net.pl/powiathajnowski" class="nav-link">Dziennik elektroniczny</a></li>
+            <li class="nav-item"><button href="https://uonetplus.vulcan.net.pl/powiathajnowski" class="btn btn-dark">Dziennik elektroniczny</button></li>
             <li class="nav-item">
                 <div class="dropdown">
                     <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -66,7 +66,20 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link">O uczniach</a></li>
+            <li class="nav-item">
+                <div class="dropleft">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    O uczniach
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="https://zszhajnowka.pl/menu-lewe/plany-lekcji-nauczycieli/index.html">Stypendyści</a></li>
+                        <li><a class="dropdown-item" href="https://zszhajnowka.pl/menu-lewe/podreczniki-po-podstawowce.htm">Najlepsi uczniowie</a></li>
+                        <li><a class="dropdown-item" href="https://arkusze.pl/">Matury / Egzaminy</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://europa.eu/europass/pl/create-europass-cv">Kreator CV</a></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </header>
     <main>
