@@ -43,8 +43,8 @@
                     </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item active" href="#">Plany lekcji</a></li>
-                        <li><a class="dropdown-item" href="#"></a></li>
-                        <li><a class="dropdown-item" href="#">Egzaminy</a></li>
+                        <li><a class="dropdown-item" href="#">Podręczniki</a></li>
+                        <li><a class="dropdown-item" href="#">Matury / Egzaminy</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Separated link</a></li>
                     </ul>
