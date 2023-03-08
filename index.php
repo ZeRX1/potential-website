@@ -54,8 +54,7 @@
             <li class="nav-item"><a href="#" class="nav-link">Dla nauczycieli</a></li>
             <li class="nav-item"><a href="#" class="nav-link">O uczniach</a></li>
         </ul>
-      </header>
-    
+    </header>
     <main>
         <!--
             Banner z opisem szkoly i nazwa
