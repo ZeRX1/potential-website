@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Bootstrap, anxs, DJOhayo">
+  <title>Signin</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/res/logo.jpg">
+  <meta name="theme-color" content="#7952b3">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/signin.css" rel="stylesheet">
+
+  <script>
+    function validate(){
+
+    if(!document.getElementById("haslo").value==document.getElementById("confirm_password").value)alert("Passwords do no match");
+    return document.getElementById("password").value==document.getElementById("confirm_password").value;
+    return false;
+    }
+  </script>
+
+</head>
+
+<body class="text-center">
+  <main class="form-signin">
+    <form action="/php/register.php" onSubmit="return validate()" method="post">
+      <img class="mb-4" src="/res/logo.jpg" alt="" width="64" height="64">
+      <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+      <div class="form-floating">
+        <input type="text" class="form-control" name="login" placeholder="Nickname" required>
+        <label for="floatingInput">Nickname</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" class="form-control" name="email" placeholder="example@example.com" required>
+        <label for="floatingInput">E-Mail</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="haslo" name="haslo" placeholder="Password" required>
+        <label for="floatingPassword">Password</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="powtorzhaslo" name="powtorzhaslo" placeholder="Repeat Password" required>
+        <label for="floatingPassword">Repeat Password</label>
+      </div>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="accept" required> Accept <a href="terms.html">terms</a>
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+    </form>
+  </main>
+</body>
+
+</html>

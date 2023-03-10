@@ -1,0 +1,16 @@
+{
+    "stage1": {
+        "upg1c": 10,
+        "upg2c": 50,
+        "upg3c": 50,
+        "upg4c": 50,
+        "upg5c": 50,
+        "upg6c": 50,
+        "upg7c": 50,
+        "upg8c": 50,
+        "upg9c": 50
+    },
+    "stage2": {
+        "todo": 1
+    }
+}
