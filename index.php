@@ -7,19 +7,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="css/bootstrap.rtl.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!--
+    <link rel="stylesheet" href="css/bootstrap.css">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    -->
-    <!--
-        Dodaj skrypty css i inne cuda
-        bootstrap
-        ajax
-    -->
-    
     <title>ZSZ Hajnówka</title>
 </head>
 <body class="bg-light-subtle d-flex flex-column min-vh-100" data-bs-theme="dark">
@@ -94,96 +86,11 @@
             main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
             po prawej patroni i inne
         -->
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table">
+            <div class="row col-sm-5">
+
+            </div>
+        </div>
     </main>
     <section>
         <!--
@@ -206,7 +113,7 @@
             *bip*
         -->
     </section>
-    <footer class="row py-5 mt-3 border-top bg-dark mt-auto w-100">
+    <footer class="row py-4 border-top bg-dark mt-auto mx-auto w-100">
         <div class="ps-5 col col-md-4 col-xl-4 col-sm-12">
             <a href="/" class="d-flex align-items-center mb-2 link-dark text-decoration-none">
                 <img src="img/zespol3-logo.png" alt="Logo" class="bi me-2" width="40" height="40">
@@ -231,15 +138,15 @@
         </div>
 
         <div class="col col-md-3 col-xl-3 col-sm-12">
-        <h5 class="ms-2 pe-4 text-light">Informacje</h5>
-        <!-- RODO i inne rzeczy typu prawo tutaj \/-->
-        <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/rodo.htm" class="nav-link p-0 text-muted">RODO</a></li>
-            <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/biblioteka.htm" class="nav-link p-0 text-muted">Biblioteka</a></li>
-            <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/samorzad-uczniowski.htm" class="nav-link p-0 text-muted">Samorząd uczniowski</a></li>
-            <li class="nav-item mb-2"></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
+            <h5 class="ms-2 pe-4 text-light">Informacje</h5>
+            <!-- RODO i inne rzeczy typu prawo tutaj \/-->
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/rodo.htm" class="nav-link p-0 text-muted">RODO</a></li>
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/biblioteka.htm" class="nav-link p-0 text-muted">Biblioteka</a></li>
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/samorzad-uczniowski.htm" class="nav-link p-0 text-muted">Samorząd uczniowski</a></li>
+                <li class="nav-item mb-2"></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
         </div>
 
         <div class="col col-md-2 col-xl-2 col-sm-12">
