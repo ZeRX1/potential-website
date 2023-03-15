@@ -80,20 +80,7 @@
             </li>
         </ul>
     </header>
-    <main>
-        <!--
-            Banner z opisem szkoly i nazwa
-            panel lewy wysuwany po scrollnieciu albo panel staly po lewej
-            main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
-            po prawej patroni i inne
-        -->
-        <div class="table">
-            <div class="row col-sm-5">
-
-            </div>
-        </div>
-    </main>
-    <section>
+    <section class="container float-left">
         <!--
             Panel lewy - Zrobić cokolwiek zeby nie zajmowała dużo miejsca akordeon
             Dostępność - Drogi kontaktowe przez email, jak wejść do szkoły (przez drzwi)
@@ -102,7 +89,68 @@
             Rok szkolny - Szukajka do wydarzeń w danym roku szkolnym i lista segregowana alfabetycznie ów wydarzeń
         -->
     </section>
-    <section>
+    <main id="carousel" class="container">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/panorama.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/dzien-otwarty.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/panorama.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-previous" href="#carousel" data-slide="prev" role="button">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="carousel-control-prev-icon">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next" role="button">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="carousel-control-next-icon">
+            <span class="sr-only">Next</span>
+        </a>
+        <img src="img/panorama.png" alt="Panorama" class="w-100">
+    <!--
+        Banner z opisem szkoly i nazwa
+        panel lewy wysuwany po scrollnieciu albo panel staly po lewej
+        main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
+        po prawej patroni i inne
+    --><!--
+        <div class="table b-green">
+            <div class="row col-sm-5">
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            </div>
+        </div>-->
+    </main>
+    <section class="container float-right">
         <!--
             Panel prawy - Dodatkowe informacje
             Herb
