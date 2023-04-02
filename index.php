@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +7,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!--
-        Dodaj skrypty css i inne cuda
-        bootstrap
-        ajax
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     -->
-    
     <title>ZSZ Hajnówka</title>
 </head>
-<body class="bg-light-subtle" data-bs-theme="dark">
+<body class="bg-light-subtle d-flex flex-column min-vh-100" data-bs-theme="dark">
     <!--    Navbar
             Strona główna     Dla uczniów | Egzamin zawodowy      Dyplomy | Stypendyści | Najlepsi uczniowie | Archiwum
             Strona główna - Idzie do index.php
@@ -30,9 +28,9 @@
             Archiwum - Zapisane poprzednie panele boczne razem z ich korespondujacymi stronami 
     -->
 
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark sticky-top">
         <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
-            <img src="img/logo.png" alt="Logo" class="bi ms-3" width="40" height="40">
+            <img src="img/zespol3-logo.png" alt="Logo" class="bi ms-3" width="40" height="40">
             <span class="fs-4 ms-3">ZSZ Hajnówka</span>
         </a>
 
@@ -82,16 +80,7 @@
             </li>
         </ul>
     </header>
-    <main>
-        <!--
-            Banner z opisem szkoly i nazwa
-            panel lewy wysuwany po scrollnieciu albo panel staly po lewej
-            main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
-            po prawej patroni i inne
-        -->
-        
-    </main>
-    <section>
+    <section class="container float-left">
         <!--
             Panel lewy - Zrobić cokolwiek zeby nie zajmowała dużo miejsca akordeon
             Dostępność - Drogi kontaktowe przez email, jak wejść do szkoły (przez drzwi)
@@ -100,7 +89,68 @@
             Rok szkolny - Szukajka do wydarzeń w danym roku szkolnym i lista segregowana alfabetycznie ów wydarzeń
         -->
     </section>
-    <section>
+    <main id="carousel" class="container">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/panorama.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/dzien-otwarty.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/panorama.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-previous" href="#carousel" data-slide="prev" role="button">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="carousel-control-prev-icon">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next" role="button">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="carousel-control-next-icon">
+            <span class="sr-only">Next</span>
+        </a>
+        <img src="img/panorama.png" alt="Panorama" class="w-100">
+    <!--
+        Banner z opisem szkoly i nazwa
+        panel lewy wysuwany po scrollnieciu albo panel staly po lewej
+        main panel musi byc mozliwy do zmiany dynamicznie czyli trzeba cos wykminic
+        po prawej patroni i inne
+    --><!--
+        <div class="table b-green">
+            <div class="row col-sm-5">
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+            <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+            </div>
+        </div>-->
+    </main>
+    <section class="container float-right">
         <!--
             Panel prawy - Dodatkowe informacje
             Herb
@@ -113,12 +163,10 @@
         -->
     </section>
     <footer class="row py-5 mt-3 border-top fixed-bottom bg-dark">
-        <div class="col col-md-1 col-xl-1 col-sm-0"></div>
-
-        <div class="col col-md-3 col-xl-3 col-sm-12">
+        <div class="ps-5 col col-md-4 col-xl-4 col-sm-12">
             <a href="/" class="d-flex align-items-center mb-2 link-dark text-decoration-none">
                 <img src="img/logo.png" alt="Logo" class="bi me-2" width="40" height="40">
-                <h5 class="ms-2">Zespół Szkół Zawodowych w Hajnówce</h5>
+                <h5 class="ms-2 pe-4">Zespół Szkół Zawodowych w Hajnówce</h5>
             </a>
             
             <p class="text-muted mb-2 p-0">Telefon: +48 856822071</p>
@@ -130,7 +178,7 @@
         <div class="col col-md-2 col-xl-2 col-sm-0"></div>
 
         <div class="col col-md-3 col-xl-3 col-sm-12">
-        <h5>Kontakt i dostępność</h5>
+        <h5 class="ms-2 pe-4 text-light">Kontakt i dostępność</h5>
         <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontakt</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Dostępnośc kadry</a></li>
@@ -141,17 +189,28 @@
         </div>
 
         <div class="col col-md-3 col-xl-3 col-sm-12">
-        <h5>Informacje</h5>
-        <!-- RODO i inne rzeczy typu prawo tutaj \/-->
+            <h5 class="ms-2 pe-4 text-light">Informacje</h5>
+            <!-- RODO i inne rzeczy typu prawo tutaj \/-->
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/rodo.htm" class="nav-link p-0 text-muted">RODO</a></li>
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/biblioteka.htm" class="nav-link p-0 text-muted">Biblioteka</a></li>
+                <li class="nav-item mb-2"><a href="https://www.zszhajnowka.pl/menu-lewe/samorzad-uczniowski.htm" class="nav-link p-0 text-muted">Samorząd uczniowski</a></li>
+                <li class="nav-item mb-2"></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+        </div>
+
+        <div class="col col-md-2 col-xl-2 col-sm-12">
+        <h5>Section</h5>
+        <!-- Nie mam pojecia co tu ma byc ale raczej cos sie jeszcze wcisnie -->
         <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">RODO</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Biblioteka</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Samorząd uczniowski</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
         </ul>
         </div>
-
     </footer>
     <!-- Jakis js do bootstrapa ogolnie mozna robic smieszne dzieki temu -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
