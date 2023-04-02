@@ -35,7 +35,7 @@
             <img src="img/logo.png" alt="Logo" class="bi ms-3" width="40" height="40">
             <span class="fs-4 ms-3">ZSZ Hajnówka</span>
         </a>
-  
+
         <ul class="nav nav-pills me-3">
             <!-- Tak beda dropdowny \/ -->
             <li class="nav-item"><a href="https://uonetplus.vulcan.net.pl/powiathajnowski"><button class="btn btn-dark">Dziennik elektroniczny</button></a></li>
@@ -113,10 +113,12 @@
         -->
     </section>
     <footer class="row py-5 mt-3 border-top fixed-bottom bg-dark">
-        <div class="ps-5 col col-md-4 col-xl-4 col-sm-12">
+        <div class="col col-md-1 col-xl-1 col-sm-0"></div>
+
+        <div class="col col-md-3 col-xl-3 col-sm-12">
             <a href="/" class="d-flex align-items-center mb-2 link-dark text-decoration-none">
                 <img src="img/logo.png" alt="Logo" class="bi me-2" width="40" height="40">
-                <h5 class="ms-2 pe-4">Zespół Szkół Zawodowych w Hajnówce</h5>
+                <h5 class="ms-2">Zespół Szkół Zawodowych w Hajnówce</h5>
             </a>
             
             <p class="text-muted mb-2 p-0">Telefon: +48 856822071</p>
@@ -124,6 +126,8 @@
             <p class="text-muted mb-2 p-0">E-Mail: zsz_hajnowka@op.pl</p>
             <p class="text-muted mb-2 p-0">ZSZ Hajnówka © 2023</p>
         </div>
+
+        <div class="col col-md-2 col-xl-2 col-sm-0"></div>
 
         <div class="col col-md-3 col-xl-3 col-sm-12">
         <h5>Kontakt i dostępność</h5>
@@ -148,17 +152,6 @@
         </ul>
         </div>
 
-        <div class="col col-md-2 col-xl-2 col-sm-12">
-        <h5>Section</h5>
-        <!-- Nie mam pojecia co tu ma byc ale raczej cos sie jeszcze wcisnie -->
-        <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-        </div>
     </footer>
     <!-- Jakis js do bootstrapa ogolnie mozna robic smieszne dzieki temu -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
